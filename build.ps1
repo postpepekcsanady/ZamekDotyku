@@ -63,8 +63,8 @@ New-Item -ItemType Directory -Force -Path $GeneratedDir, $ClassesDir, $DexDir, $
     --java $GeneratedDir `
     --min-sdk-version 23 `
     --target-sdk-version 35 `
-    --version-code 1 `
-    --version-name '0.1.0' `
+    --version-code 2 `
+    --version-name '0.2.0' `
     -o $LinkedApk `
     $CompiledRes
 
